@@ -65,7 +65,7 @@ const BlogPostCard = ({ post, showSummary }) => {
           </div>
 
           {(!showPreview || showSummary) && !post.results && (
-            <p className="mt-4 mb-24 text-gray-700 dark:text-gray-300 text-sm font-light leading-7">
+            <p className="mt-4 mb-4 text-gray-700 dark:text-gray-300 text-sm font-light leading-7">
               {post.summary}
             </p>
           )}
